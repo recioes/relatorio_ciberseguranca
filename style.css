@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+body {
+  background-color: #d8e6ed;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center; /* Alinha as divs horizontalmente ao centro */
+  align-items: stretch; /* Faz com que todos os filhos flex estiquem para preencher a altura */
+  margin: 40px 100px;
+  gap: 10px; /* adiciona 10px de espaço entre as divs */
+}
+#acrux {
+  font-size: 20px;
+  font-weight: 100;
+  font-weight: bold;
+  margin-bottom: 0; /* para remover o espaço extra abaixo de "ACRUX" */
+}
+
+#autora {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 0;
+}
+#texto {
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 50px;
+  text-align: left;
+}
+
+.principal {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  width: 60%;
+  padding: 20px;
+  max-width: 600px; /* limita a largura do conteúdo do texto */
+}
+
+.imagem {
+  width: 30%;
+  height: 600px;
+}
+.imagem img {
+  height: 600px;
+}
+a {
+  color: #5271ff;
+}
+
+/* CSS para telas com largura de 600px ou menos */
+@media screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .principal {
+    width: 100%;
+  }
+  .imagem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagem img {
+    max-width: 100%;
+  }
+}
