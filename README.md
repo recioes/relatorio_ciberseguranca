@@ -31,6 +31,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto consiste em uma startup fictícia na qual cada aluno foi responsável por criar controles físicos e lógicos de segurança. O relatório técnico aborda detalhadamente as medidas de segurança que a startup deve implementar para proteger as informações sensíveis e confidenciais.
 Em resumo, esta página web básica é um meio simples e direto de acessar o arquivo em PDF do meu relatório técnico de segurança da informação. O projeto aborda os controles físicos e lógicos que a startup fictícia deve implementar para garantir a proteção adequada das informações. O uso do Canva, HTML e CSS foi fundamental para criar essa página e fortaleceu meu aprendizado sobre o desenvolvimento web e a importância da segurança da informação.
+
+- [Visite o projeto online](https://recioes.github.io/relatorio_ciberseguranca/)
 ## 📝 Aprendizado
 
 Durante o desenvolvimento desta página web, utilizei o Canva para criar o design e as linguagens HTML e CSS para criar a estrutura e o estilo da página. Essa experiência me proporcionou praticar novamente sobre o desenvolvimento de páginas da web, além de reforçar a importância da segurança da informação no contexto empresarial.
